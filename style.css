@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: auto;
+}
+
+main {
+  flex: auto;
+  /* background-color: #ccc; */
+  height: 1200px;
+}
+
+footer {
+  /* height: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+  background-color: rgb(13, 2, 20);
+  color: white;
+  text-align: center;
+}
